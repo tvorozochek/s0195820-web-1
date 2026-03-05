@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отчет по Заданию №1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Задание 1</h1>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>1. Подключение к серверу по SSH</h2>
+                <div class="image-box single">
+                    <img src="./img/login.png" alt="SSH Connection">
+                    <p class="caption">Успешная авторизация на сервере Ubuntu 24.04.2 LTS</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>2. Команда Ping (IP веб-сервера kubsu.ru)</h2>
+                <div class="image-grid">
+                    <div class="image-box">
+                        <img src="./img/ping.png" alt="Ping 1">
+                        <p class="caption">Проверка связи с kubsu.ru (185.13.84.92)</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>3. DNS: A-записи (nslookup)</h2>
+                <div class="image-grid">
+                    <div class="image-box">
+                        <img src="./img/nslookup.png" alt="nslookup kubsu.ru">
+                        <p class="caption">A-запись для kubsu.ru</p>
+                    </div>
+                    <div class="image-box">
+                        <img src="./img/nslookup-dev.png" alt="nslookup kubsu-dev.ru">
+                        <p class="caption">A-запись для kubsu-dev.ru</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>4. DNS: MX-записи (Почтовые серверы)</h2>
+                <div class="image-grid">
+                    <div class="image-box">
+                        <img src="./img/nslookup-mx.png" alt="MX kubsu.ru">
+                        <p class="caption">Почтовые шлюзы kubsu.ru</p>
+                    </div>
+                    <div class="image-box">
+                        <img src="./img/nslookup-mx-dev.png" alt="MX kubsu-dev.ru">
+                        <p class="caption">Результат поиска MX для kubsu-dev.ru</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>5. Дата регистрации доменов (Whois)</h2>
+                <div class="image-grid">
+                    <div class="image-box">
+                        <img src="./img/whois.png" alt="Whois kubsu.ru">
+                        <p class="caption">Регистрация kubsu.ru: 1998-03-28</p>
+                    </div>
+                    <div class="image-box">
+                        <img src="./img/whois-dev.png" alt="Whois kubsu-dev.ru">
+                        <p class="caption">Регистрация kubsu-dev.ru: 2020-02-12</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>6. Работа с файлами по SFTP (Шаг 6)</h2>
+                <div class="image-box single">
+                    <img src="./img/image.png" alt="FileZilla Transfer">
+                    <p class="caption">Интерфейс FileZilla: загрузка файлов index.jss и index.php</p>
+                </div>
+            </section>
+
+            <section class="card placeholder">
+                <h2>7. Git-репозиторий (Шаг 5)</h2>
+                <div class="image-box single">
+                    <div class="empty-state">Сюда добавьте скриншот выполнения команд git clone / git push</div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Лабораторная работа №1</p>
+        </footer>
+    </div>
+</body>
+</html>
